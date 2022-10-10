@@ -29,7 +29,7 @@
       {{ control.errors["maxlength"].requiredLength }}
       characters.
     </p>
-    <p *ngIf="control.errors['pattern']">Invalid format</p>
+    <p *ngIf="control.errors['pattern']">You can use letters,numbers and periods</p>
     <p *ngIf="control.errors['nonUniqueUsername']">Username is taken</p>
     <p *ngIf="control.errors['noConnection']">Check the connection.</p>
   </div>
